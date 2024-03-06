@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="github"
+            fetch="https://github.com"
+            clone-depth="1" />
+
+    <remote name="gitlab"
+            fetch="https://gitlab.com"
+            clone-depth="1" />
+        
+ <!--Tree -->
+ <project path="device/xiaomi/fog" name="KDEFFALT/device_xiaomi_fog" remote="github" revision="matrix-14" />
+
+ <!--Kernel -->
+ <project path="kernel/xiaomi/fog" name="https://gitlab.com/KDEFFALT/artifact-patriot.git" remote="gitlab" revision="artifact-keiken" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/fog" name="KDEFFALT/vendor_xiaomi_fog" remote="github" revision="fourteen" />
+ 
+</manifest>
