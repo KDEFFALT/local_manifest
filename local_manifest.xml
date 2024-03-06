@@ -17,5 +17,8 @@
  
  <!--Vendor -->
  <project path="vendor/xiaomi/fog" name="KDEFFALT/vendor_xiaomi_fog" remote="github" revision="fourteen" />
+
+  <!--bengal hals -->
+ <project path="hardware/qcom-caf/bengal" name="KDEFFALT/hardware_qcom-caf_bengal" remote="github" revision="fourteen" />
  
 </manifest>
